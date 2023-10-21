@@ -1,0 +1,78 @@
+body {
+  background-color: black;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+i,
+label,
+a {
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+nav ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+a:hover {
+  color: aqua;
+}
+.Title {
+  margin: 100px;
+  text-align: center;
+}
+#introduction {
+  text-align: center;
+}
+#chooseme {
+  margin: 100px;
+
+  text-align: center;
+}
+.portfolio {
+  text-align: center;
+}
+img {
+  width: 500px;
+  height: 400px;
+}
+.myworks {
+  margin: 20px;
+}
+#contactme {
+  text-align: center;
+  background-color: rgb(50, 47, 47);
+  margin: 100px;
+  margin: 30px;
+}
+.enjoywatching {
+  background-color: rgb(43, 40, 40);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+  flex-direction: column;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
