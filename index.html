@@ -4,27 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Web Site</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <div class="dark">
     <nav>
-      <ul>
-        <li><a href="contact.html">Contact me</a></li>
-        <li><a href="about.html">About me</a></li>
-        <li><a href="works.html">Works</a></li>
-      </ul>
-    </div>
+      <div class="myname">
+        <h3>DridiMyriam._</h3>
+      </div>
+      <div class="header">
+        <ul class="rightpartnav">
+          <li class="home">
+            <a href="index.html" target="">Home</a>
+          </li>
+          <li class="About"><a href="#introduction" target="">About</a></li>
+          <li class="Work"><a href="#chooseme" target="">Work</a></li>
+          <li class="contact"><a href="#contactme" target="">Contact</a></li>
+        </ul>
+      </div>
     </nav>
-    <div>
-    <div class="introduction">
-<h1>Hey it's Myriam I'm a Developer</h1>
-<p>I absolutely thrive on the sheer joy of bringing beautiful creations to life. Making the web a prettier place is my jam </p>
-</div>
-    <img src="3239444.jpg" alt="">
-</div>
-
-</div>
+    <div class="Title">
+      <h1>DRIDI MYRIAM</h1>
+      <h4>FRONT END WEB DEVELOER</h4>
+    </div>
+    <div id="introduction">
+      <h2>About Me</h2>
+      <p>
+        I'm Dridi Myriam, Web Developer. Passionate about the world of the web,
+        after a career in Logistics, I chose Web development as a new challenge.
+        Organized by nature, I like to solve problems. Attentive to details, I
+        am always on the lookout for new and ambitious experiences.
+      </p>
+      <button>Download my CV</button>
+    </div>
+    <div id="chooseme">
+      <h2>
+        Have an exciting project you need help with? Send me an email or contact
+        me via instant message!
+      </h2>
+      <button>contact me</button>
+    </div>
+    <div class="portfolio">
+      <h2>My Works</h2>
+      <div class="myworks">
+        <img src="boutique.jpg" alt="" />
+        <img src="cabinet.jpg" alt="" />
+        <img src="centre.jpg" alt="" />
+        <img src="clinique.jpg" alt="" />
+        <img src="club.jpg" alt="" />
+        <img src="logistique.jpg" alt="" />
+      </div>
+    </div>
+    <div id="contactme">
+      <h3>Contact Me</h3>
+      <h5>Swing by for a cup of coffee, or leave us a message:</h5>
+      <audio
+        controls
+        src="motivational-epic-music-inspiring-cinematic-background-music-124265.mp3"
+      ></audio>
+      <form action="">
+        <div class="user">
+          <i class="fa-solid fa-user"></i>
+          <label for="">Name :</label>
+          <input type="text" />
+        </div>
+        <div class="user">
+          <i class="fa-solid fa-envelope"></i>
+          <label for="">E-mail :</label>
+          <input type="mail" />
+        </div>
+        <div class="user">
+          <i class="fa-solid fa-message"></i>
+          <label for="">Message :</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+      </form>
+      <iframe
+        width="935"
+        height="526"
+        src="https://www.youtube.com/embed/KWVJTRWILjU"
+        title="Web Developer Reacts to Beautiful Portfolio Websites"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
     </div>
   </body>
 </html>
